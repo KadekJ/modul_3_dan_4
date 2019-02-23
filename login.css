@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background: lightgrey;
+}
+div.konten{
+    background: white;
+    width: 350px;
+    margin: 200px auto 0;
+    border-radius: 16px;  /*untuk kelengkungan sudut kotak*/
+    min-height: 256px; /**/
+    overflow: hidden;
+}
+div.kepala{
+    background: lightcoral;
+    padding: 10px 22px;
+    height: 60px;
+}
+div.kepala h2.judul {
+    color: white;
+    font-weight: normal;
+    line-height: 40px;
+    display: inline-block;
+}
+div.lock {
+    background-image: url("lock.png");
+    background-position: center;
+    background-size: 25px ;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+    float: left;
+    margin-right: 10px;
+}
+div.arikel{
+    padding: 10px 22px 0;
+    color: darkslategrey;
+}
+div.artikel div.grup{
+    margin: 16px 0 ;
+}
+div.artikel div.grup label,
+div.artikel div.grup input{
+    display: block; /*meletakkan email di atas dan dibawahnya masukkan alamat email*/
+}
+div.artikel div.grup label{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+div.artikel div.grup input[type="text"],
+div.artikel div.grup input[type="password"]{
+    width: 100%;
+    height: 30px;
+    padding: 10 10px;
+    background: #eeeeee;
+    border: none;
+    color: darkslategrey;
+}
+div.artikel div.grup input[type="submit"]{
+    background: limegreen;
+    padding: 6px 25px;
+    margin: 0 auto;
+    border: 1px solid limegreen;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+div.artikel div.grup input[type="submit"]:hover{
+    background: mediumspringgreen;
+}
+
